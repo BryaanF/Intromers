@@ -1,0 +1,25 @@
+{
+  "name": "intromers",
+  "version": "1.0.0",
+  "description": "\"# Intromers\"",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BryaanF/Intromers.git"
+  },
+  "keywords": [],
+  "author": "Liant",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BryaanF/Intromers/issues"
+  },
+  "homepage": "https://github.com/BryaanF/Intromers#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd backend && npm run dev",
+    "client": "cd frontend && npm run dev"
+  },
+  "dependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
